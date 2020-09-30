@@ -1,79 +1,119 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <title> Hacktoberfest 2020 </title>
-  <link rel = "icon" href = "HF20_logo.png" type = "image/x-icon"/> 
-<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes"/>
-<style>
+  <head>
+    <title>Hacktoberfest 2020</title>
+    <link rel="icon" href="HF20_logo.png" type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=yes"
+    />
+    <style>
+      h1 {
+        property: Lucida Bright;
+        text-align: center;
+        font-size: 80px;
+        color: #da47cc;
+      }
+      p {
+        text-align: center;
+        font-size: 60px;
+        color: white;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body bgcolor="#003367">
+    <div>
+      <img
+        src="hackfest20.svg"
+        alt="logo"
+        class="center"
+        style="width: 700px; height: 250px"
+      />
+    </div>
+    <div>
+      <h2 style="background-color: aliceblue; text-align: center">
+        Win a limited edition free t-shirt!
+      </h2>
+      <img
+        src="tshirt.png"
+        alt="Hacktoberfest T-shirt"
+        width="300px"
+        height="500"
+        style="display: block; margin-left: auto; margin-right: auto"
+      />
+      <p id="t1">Time left..</p>
+      <p id="demo"></p>
+      <p id="p1">
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Oct 31, 2020 23:59:59").getTime();
 
-h1 {
-  property:Lucida Bright;
-  text-align: center;
-  font-size: 80px;
-  color:#da47cc;
+          // Update the count down every 1 second
+          var x = setInterval(function () {
+            // Get today's date and time
+            var now = new Date().getTime();
 
-}
-p {
-  text-align: center;
-  font-size: 60px;
-  color:white;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-</head>
-<body bgcolor=#003367>
-<div>
-<img src="hackfest20.svg" alt="logo" class="center" style="width:700px;height:250px;">
-</div>
-<div>
-<p id="t1"> Time left..</p>
-<p id="demo"></p>
-<p id="p1">
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Oct 31, 2020 23:59:59").getTime();
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = "<b>"+days+"</b>" + "d " + "<b>"+hours+"</b>" + "h "
-  + "<b>"+minutes+"</b>" + "m " + "<b>"+seconds+"</b>" + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-</p>
-</div>
-<br>
-<br>
-<br>
-<div style="text-align:center">
-<a href="https://hacktoberfest.digitalocean.com/" style="color:#db70c5">Click here to visit Hacktoberfest 2020 Official Site</a>
-<br>
-<br>
-<a href="https://github.com/rakshit234/HacktoberFest2020" style="color:#db70c5">Link to code.</a>
-</div>
-</body>
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML =
+              "<b>" +
+              days +
+              "</b>" +
+              "d " +
+              "<b>" +
+              hours +
+              "</b>" +
+              "h " +
+              "<b>" +
+              minutes +
+              "</b>" +
+              "m " +
+              "<b>" +
+              seconds +
+              "</b>" +
+              "s ";
+
+            // If the count down is over, write some text
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+        </script>
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div style="text-align: center">
+      <a href="https://hacktoberfest.digitalocean.com/" style="color: #db70c5"
+        >Click here to visit Hacktoberfest 2020 Official Site</a
+      >
+      <br />
+      <br />
+      <a
+        href="https://github.com/rakshit234/HacktoberFest2020"
+        style="color: #db70c5"
+        >Link to code.</a
+      >
+    </div>
+  </body>
 </html>
