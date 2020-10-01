@@ -3,146 +3,130 @@
   <head>
     <title>Hacktoberfest-2020</title>
     <link rel="icon" href="images/HF20_logo.png" type="image/x-icon" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,user-scalable=yes"
-    />
-    <link
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link 
-      rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.statically.io/gh/shahednasser/sbuttons/c135f5f7/dist/sbuttons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   </head>
+
   <body >
     <div class="main">
       <div>
-      <a href="https://rakshit234.github.io/HacktoberFest2020/">
-      <img
-        src="images/hackfest20.svg"
-        alt="logo"
-        class="center"
-      />
-      </a>
-    </div>
-    <div>
-      <p id="t1">Time left..</p>
-      <p id="demo"></p>
-      <p id="p1">
+        <a href="https://rakshit234.github.io/HacktoberFest2020/">
+        <img src="images/hackfest20.svg" alt="logo" class="center" style="width: 550px; height: 350px;" />
+        </a>
+      </div>
+
+      <div>
+        <p id="t1"> Ends In: </p>
+        <p id="demo"></p>
+        <p>
+          <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 31, 2020 23:59:59").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+              // Get today's date and time
+              var now = new Date().getTime();
+
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor(
+                (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+              );
+              var minutes = Math.floor(
+                (distance % (1000 * 60 * 60)) / (1000 * 60)
+              );
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = "<b>" + days + "</b>" + "d " + "<b>" + hours + "</b>" + "h " + "<b>" + minutes + "</b>" + "m " + "<b>" + seconds + "</b>" + "s ";
+
+              // If the count down is over, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+          </script>
+        </p>
+
+        <center> <div id="div1" class="fa" style="font-size:80px; color:white;"></div> </center>
         <script>
-          // Set the date we're counting down to
-          var countDownDate = new Date("Oct 31, 2020 23:59:59").getTime();
-
-          // Update the count down every 1 second
-          var x = setInterval(function () {
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor(
-              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-            );
-            var minutes = Math.floor(
-              (distance % (1000 * 60 * 60)) / (1000 * 60)
-            );
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Output the result in an element with id="demo"
-            document.getElementById("demo").innerHTML =
-              "<b>" +
-              days +
-              "</b>" +
-              "d " +
-              "<b>" +
-              hours +
-              "</b>" +
-              "h " +
-              "<b>" +
-              minutes +
-              "</b>" +
-              "m " +
-              "<b>" +
-              seconds +
-              "</b>" +
-              "s ";
-
-            // If the count down is over, write some text
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        </script>
-      </p>
-    <center><div
-      id="div1"
-      class="fa"
-      style="font-size:87px;color:white">
-    </center>
-    </div>
-        <script>
-          function hourglass()
-          {
+          function hourglass(){
             var a;
             a = document.getElementById("div1");
             a.innerHTML = "&#xf251;";
-            setTimeout(function ()
-            {
+            setTimeout(function (){
               a.innerHTML = "&#xf252;";
             }, 1000);
-              setTimeout(function ()
-            {
+            setTimeout(function (){
               a.innerHTML = "&#xf253;";
             }, 2000);
           }
+          
           hourglass();
           setInterval(hourglass, 3000);
         </script>
-      <h2 style="color:yellow;">
-        Win a limited edition free t-shirt!(Click the t-shirt to get one)
-      </h2>
 
-      <h3 style="background-color: aliceblue; text-align: center">
-        <h1 style="text-align: center; color: rgb(151, 201, 216); font-style: italic;">Steps to be followed</h1>
+        <br><br>
+        <h2 style="text-align: center; color: rgb(120, 153, 177);">Win a free shirt by contributing as instructed:</h2>
+      </div>
+    
+      <div style="text-align: center">
+        <button class="button" ><span>
+          <a href="https://hacktoberfest.digitalocean.com/" target="_blank" style="font-size: 10; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">
+            1. Login to Hacktoberfest using your Github account
+          </a>
+        </span></button>
+  
+        <button class="button" ><span>
+          <a href="https://github.com/search?q=hacktoberfest" target="_blank" style="font-size: 10; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">
+            2. Edit any 4 repositories on Github by forking, cloning on your account and make Pull Requests
+          </a>
+        </span></button>
 
-        <div class="list-style">
-          <li id="list">
-            <ul> <a href="https://hacktoberfest.digitalocean.com/" target="_blank"> 1. Login on Hacktoberfest website using your Github account </a></ul>
-            <ul> 2. Edit any 4 repositories on Github by forking, cloning on your account and make Pull request</ul>
-            <ul> <a href="https://hacktoberfest.digitalocean.com/profile" target="_blank"> 3. Check status of your pull request on Hactoberfest official portal</a></ul>
-            <ul> 4. Once all your 4 pull requests are verified you will be eligible for Free T-shirt</ul>
-            </li>
-        </div>
+        <br><br>
 
+        <button class="button" ><span>
+          <a href="https://hacktoberfest.digitalocean.com/profile" target="_blank" style="font-size: 10; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">
+            3. Check the status of your pull requests on Hacktoberfest's official portal
+          </a>
+        </span></button>
+  
+        <button class="button diff" ><span>
+          <a href="" target="_blank" style="font-size: 10; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">
+            4. Once all 4 pull requests are verified, you will be eligible for a Free T-shirt
+          </a>
+        </span></button>
+      </div>
+
+      <br>
       <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+        <img src="images/tshirt.png" alt="Hacktoberfest T-shirt"  style="display: block; margin-left: auto; margin-right: auto; width : 40%; height: auto;" />
+        <br>
 
-      <img
-        src="images/tshirt.png"
-        alt="Hacktoberfest T-shirt"
-        class="image"
-        style="display: block; margin-left: auto; margin-right: auto; width : 50%;"
-      />
-    </div>
-    <br />
     <div style="text-align: center">
+      <button class="sbtn social-btn github" >
+        <a href="https://github.com/rakshit234/HacktoberFest2020" target="_blank" style="font-size: 20px; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">Link to Github Repository</a>
+      </button>
 
-
-<button type="button" name="button" id="button" class="btn" ><a
-
-  href="https://github.com/rakshit234/HacktoberFest2020"
-  target="_blank"
-  style="font-size: 20px; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;"
-  >Link to code</a
-></button>
-
+      <button class="sbtn social-btn github" >
+        <a href="https://github.com/preity-p" target="_blank" style="font-size: 20px; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">Link to Contributor's Profile</a>
+      </button>
     </div>
-    </div>
-    <footer id="foot">
+  </div>
+    
+    
+  <footer id="foot">
+    <h4 style="text-align:center; color:white;"> © 2020 DigitalOcean, LLC. All rights reserved.</h4>
+  </footer>
 
-  <h4 style="text-align:center; color:white;"> © 2020 DigitalOcean, LLC. All rights reserved.</h4>
-</footer>
   </body>
 </html>
 
