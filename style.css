@@ -38,13 +38,20 @@ p {
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5rem auto;
     width: 45%;
 }
 
 .image {
-    width: 100%
+    width: 85%;
+    transition: .2s;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.image:hover{
+  transform: scale(1.1);
 }
 
 a {
@@ -67,7 +74,7 @@ a:hover {
 }
 .list-style li {
   font-size: large;
-  background-color: rgba(55, 17, 59, 0.63);
+  background-color: rgba(255, 0, 64, 0.644);
   box-shadow: 0px 0px 12px -1px rgb(214, 158, 222);
 }
 .list-style li ul {
@@ -75,15 +82,18 @@ a:hover {
   padding: 0.5em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.644);
   text-align: justify;
+  transition: all .2s;
 }
+.list-style li ul:hover{
+  transform: translateY(-3px);
+} 
 .list-style li ul a {
   color: rgb(248, 201, 255);
   text-decoration: none;
-
 }
-/* .list-style li ul a:hover {
+.list-style li ul a:hover {
   color: whitesmoke;
-} */
+}
 
 a {
   text-decoration: none;
