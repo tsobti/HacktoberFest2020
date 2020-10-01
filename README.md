@@ -8,11 +8,11 @@ Pull request and add any feature to the website.
 
 Link to the site: https://rakshit234.github.io/HacktoberFest2020/
 
-Link to register on hactoberfest2020  [Hactoberfest2020](https://hacktoberfest.digitalocean.com/)
+Link to register on hacktoberfest2020  [Hacktoberfest2020](https://hacktoberfest.digitalocean.com/)
 
 Add Your Contribution's to this repository by doing following operations:
 - I have added the image of t-shirt in the repo, you can add it anywhere it looks good.
-- Also you can use media query to make this webpage mobile browser compatible and tablet compatible.
+- Also you can make this webpage mobile browser compatible and tablet compatible.
 - Add image in title bar of hacktoberfest logo.
 - Add Transition through CSS to make it look great.
 - Add Animation for smooth experience.
@@ -20,4 +20,12 @@ Add Your Contribution's to this repository by doing following operations:
 - Change text color inside the button.
 
 Special Contributors:
+
 * [bluecypher](https://github.com/bluecypher)
+* [Skiller847](https://github.com/Skiller847)
+* [vd152](https://github.com/vd152)
+* [preity-p](https://github.com/preity-p)
+* [Manitej66](https://github.com/Manitej66)
+* [mdzaidalam52](https://github.com/mdzaidalam52)
+* [mukesh2309](https://github.com/mukesh2309)
+* [RoyalEagle73](https://github.com/RoyalEagle73)
