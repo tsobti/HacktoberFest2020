@@ -28,8 +28,8 @@ p {
     color: white;
 }
 .btn-style {
-    width: 20%;
-    border-radius: 30px;
+    width: 30%;
+    border-radius: 40px;
 }
 
 .center {
@@ -46,7 +46,7 @@ p {
 a {
     color: #db70c5;
     font-size: larger;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 a:hover {
@@ -63,8 +63,8 @@ a:hover {
 .list-style li{
     width: 40%;
     font-size: large;
-    background-color: rgba(52, 17, 54, 0.63);
-    box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
+    background-color: rgba(55, 17, 59, 0.63);
+    box-shadow: 0px 0px 12px -1px rgb(214, 158, 222);
 }
 .list-style li ul{
     margin: 1em;
@@ -73,7 +73,7 @@ a:hover {
     text-align: justify;
 }
 .list-style li ul a{
-    color: rgb(248, 200, 250);
+    color: rgb(248, 201, 255);
     text-decoration: none;
 }
 .list-style li ul a:hover{
