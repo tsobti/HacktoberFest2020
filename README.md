@@ -26,6 +26,6 @@ Special Contributors:
 * [vd152](https://github.com/vd152)
 * [preity-p](https://github.com/preity-p)
 * [Manitej66](https://github.com/Manitej66)
+* [RoyalEagle73](https://github.com/RoyalEagle73)
 * [mdzaidalam52](https://github.com/mdzaidalam52)
 * [mukesh2309](https://github.com/mukesh2309)
-* [RoyalEagle73](https://github.com/RoyalEagle73)
