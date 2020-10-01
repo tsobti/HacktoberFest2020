@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    property: Lucida Bright;
+    
+    transition-property: Lucida Bright;
     text-align: center;
     font-size: 60px;
     color: #da47cc;
@@ -21,6 +22,8 @@ h1 {
     color: black;
     background-image: linear-gradient( #25aae1, #40e495, #30dd8a, #2bb673);
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
 h2 {
     background-color: #004992;
     text-align: center;
@@ -46,6 +49,8 @@ p {
 .image {
     width: 60%
 }
+
+
 
 a {
     color: #db70c5;
@@ -105,10 +110,6 @@ ol.text-center li {
     border-radius: 19px;
     cursor: pointer;
     text-decoration: none;
-}
-
-#button:hover{
-	background-color: #C71585;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
