@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+    background-color: #003367;
+}
+
+h1 {
+    property: Lucida Bright;
+    text-align: center;
+    font-size: 80px;
+    color: #da47cc;
+}
+
+h2 {
+    background-color: #004992;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image {
+    width: 60%
+}
+
+a {
+    color: #db70c5;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    p {
+        font-size: 20px
+    }
+    h1 {
+        font-size: 20px
+    }
+    h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .main {
+        max-width: 90%;
+        overflow: hidden;
+        margin: 0 auto
+    }
+    .image {
+        width: 100%;
+        padding: 10px
+    }
+}
