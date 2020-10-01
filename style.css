@@ -124,3 +124,18 @@ ol.text-center li {
         padding: 10px
     }
 }
+
+@media screen and (max-width:480px){
+    .list-style{
+        padding: 0;
+        margin:1em 0;
+    }
+    .list-style li{
+        width:100%;
+    }
+    img{
+        width:100% !important;
+        padding:0;
+        margin: 0 auto !important;
+    }
+}
