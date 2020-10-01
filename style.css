@@ -1,29 +1,22 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins-Regular.otf) format("opentype");
+}
 body {
-    overflow-x: hidden;
-    background-color: #003367;
+  overflow-x: hidden;
+  background-color: #003367;
 }
 
 h1 {
-
-    
-    transition-property: Lucida Bright;
-    font-size: 60px;
-    color: #da47cc;
-    text-shadow: 2px 2px rgb(151, 201, 216);
+  property: Lucida Bright; 
+  text-align: center;
+  font-size: 60px;
+  color: #da47cc;
+  text-shadow: 2px 2px rgb(151, 201, 216);
 }
 
-.btn {
-    color: #cc68b0;
-    border: 1px solid gray;
-    margin: 14px 0px;
-    padding: 10px 10px;
-    border-radius: 4px;
-    background-color: rgb(9 33 55);
-}
 
-h2 {
-    background-color: cyan;
-    text-align: center;
+
 }
 
 div.sticky {
@@ -55,92 +48,102 @@ p {
 }
 
 a {
-    color: #db70c5;
-    font-size: larger;
-    transition-duration: 0.5s;
+  color: #db70c5;
+  font-size: larger;
+  transition-duration: 0.5s;
 }
 
 a:hover {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-.list-style{
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   color: white;
+.list-style {
+  font-family: "Poppins";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  letter-spacing: 0.5px;
 }
-.list-style li{
-    font-size: large;
-    background-color: rgba(55, 17, 59, 0.63);
-    box-shadow: 0px 0px 12px -1px rgb(214, 158, 222);
+.list-style li {
+  font-size: large;
+  background-color: rgba(55, 17, 59, 0.63);
+  box-shadow: 0px 0px 12px -1px rgb(214, 158, 222);
 }
-.list-style li ul{
-    margin: 1em;
-    padding: 0.5em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.644);
-    text-align: justify;
+.list-style li ul {
+  margin: 1em;
+  padding: 0.5em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.644);
+  text-align: justify;
 }
-.list-style li ul a{
-    color: rgb(248, 201, 255);
-    text-decoration: none;
-}
-.list-style li ul a:hover{
-    color: cyan);
-}
+.list-style li ul a {
+  color: rgb(248, 201, 255);
+  text-decoration: none;
 
+}
+/* .list-style li ul a:hover {
+  color: whitesmoke;
+} */
+
+a {
+  text-decoration: none;
+}
 .btn {
   background-color: rgba(52, 17, 54, 0.63);
   border: none;
-  color: black;
+  font-family: "Poppins";
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
+  /* margin: 400px 0px; */
   transition: 0.3s;
   font-weight: bold;
   box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
+  transition: all 0.5s;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
 
 .btn:hover {
   background-color: cyan;
-  color: white;
-  text-decoration: none;
+  color: #db70c5;
 }
-
+#foot {
+  margin-top: 80px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
-    p {
-        font-size: 20px
-    }
-    h1 {
-        font-size: 20px
-    }
-    h2 {
-        width: 100%;
-        font-size: 20px;
-    }
-    .main {
-        max-width: 90%;
-        overflow: hidden;
-        margin: 0 auto
-    }
-    .image {
-        width: 100%;
-        padding: 10px
-    }
+  p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .main {
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .image {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
-@media screen and (max-width:480px){
-    .list-style{
-        padding: 0;
-        margin:1em 0;
-    }
-    .list-style li{
-        width:100%;
-    }
-    img{
-        width:100% !important;
-        padding:0;
-        margin: 0 auto !important;
-    }
+@media screen and (max-width: 480px) {
+  .list-style {
+    padding: 0;
+    margin: 1em 0;
+  }
+  .list-style li {
+    width: 100%;
+  }
+  img {
+    width: 100% !important;
+    padding: 0;
+    margin: 0 auto !important;
+  }
 }
