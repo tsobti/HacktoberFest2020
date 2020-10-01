@@ -9,7 +9,14 @@ h1 {
     font-size: 80px;
     color: #da47cc;
 }
-
+.btn {
+    color: #cc68b0;
+    border: 1px solid gray;
+    margin: 14px 0px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: rgb(9 33 55);
+}    
 h2 {
     background-color: #004992;
     text-align: center;
@@ -43,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    color: #fff;
     text-decoration: none;
 }
 .list-style{
