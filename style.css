@@ -6,9 +6,11 @@ body {
 h1 {
     property: Lucida Bright;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     color: #da47cc;
+    text-shadow: 2px 2px rgb(151, 201, 216);
 }
+
 .btn {
     color: #cc68b0;
     border: 1px solid gray;
@@ -16,9 +18,10 @@ h1 {
     padding: 10px 10px;
     border-radius: 4px;
     background-color: rgb(9 33 55);
-}    
+}  
+
 h2 {
-    background-color: #004992;
+    background-color: cyan;
     text-align: center;
 }
 
