@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
-    <title>Hacktoberfest 2020</title>
+    <title>Hacktoberfest-2020</title>
+    <link rel="icon" href="HF20_logo.png" type="image/x-icon" />
     <meta
       name="viewport"
       content="width=device-width,initial-scale=1,user-scalable=yes"
     />
     <link
       rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    >
+>
     <style>
-    body {
+      body {
         overflow-x: hidden;
-        background-color: darkblue;
+        background-color: #003367;
       }
-      . main{
-        background-color: darkblue;
+      #foot{
+        color:white;
+        background-color: #000e28;
+        left:auto;
+      }
+      #list
+      {
+        color: aliceblue;
       }
       h1 {
         property: Lucida Bright;
@@ -26,8 +30,9 @@
         font-size: 80px;
         color: #da47cc;
       }
-      #navb{
-        color: "#003367";
+      h2{
+        background-color: aliceblue;
+        text-align: center;
       }
       p {
         text-align: center;
@@ -39,6 +44,11 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+      }
+      #button{
+        background-color: #072541;
+        border-radius: 10px;
+        color:white;
       }
       .image {
         width: 60%
@@ -77,40 +87,7 @@
       }
     </style>
   </head>
-  <body bgcolor="#003367">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: "#e3f2fd">
-    <a class="navbar-brand" href="#">Hacktoberfest</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Resources <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FAQ</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Events
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  <body >
     <div class="main">
       <div>
       <img
@@ -196,30 +173,41 @@
           hourglass();
           setInterval(hourglass, 3000);
         </script>
-      <h2 style="background-color: aliceblue; text-align: center">
+      <h2>
         Win a limited edition free t-shirt!(Click the t-shirt to get one)
       </h2>
+
       <h3 style="background-color: aliceblue; text-align: center">
-        Steps to be followed
-        a). <a href="https://hacktoberfest.digitalocean.com/"> login on Hacktoberfest website using your github account </a>
-        b). Edit any 4 repositiry on Github by forking on your account and make Pull request
-        c). Check status of your pull request on Hactoberfest official portal
-        d). Once your all 4 pull request are verified you will be eligible for Free Tshirt.
-      <a href="https://hacktoberfest.digitalocean.com/">
+        <h1 style="text-align: center">Steps to be followed</h1>
+        <li id="list">
+        <ul> a). <a href="https://hacktoberfest.digitalocean.com/"> Login on Hacktoberfest website using your github account </a></ul>
+        <ul> b). Edit any 4 repository on Github by forking ,cloning on your account and make Pull request</ul>
+        <ul> c). Check status of your pull request on Hactoberfest official portal</ul>
+        <ul> d). Once your all 4 pull request are verified you will be eligible for Free Tshirt.</ul>
+        </li>
+
+      <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+
       <img
         src="tshirt.png"
         alt="Hacktoberfest T-shirt"
         class="image"
-        style="display: block; margin-left: auto; margin-right: auto"
+        style="display: block; margin-left: auto; margin-right: auto; width : 50%;"
       />
     </div>
     <br />
     <div style="text-align: center">
-      <a
-        href="https://github.com/rakshit234/HacktoberFest2020"
-        >Link to code.</a
-      >
+<button type="button" name="button" id="button" ><a
+  href="https://github.com/rakshit234/HacktoberFest2020"
+  target="_blank"
+  >Link to code.</a
+></button>
+
     </div>
     </div>
+    <footer id="foot">
+
+  <h3> © 2020 DigitalOcean, LLC. All rights reserved.</h3>
+</footer>
   </body>
 </html>
