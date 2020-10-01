@@ -15,3 +15,4 @@ Add Your Contribution's to this repository by doing following operations:
 - Add Transition through CSS to make it look great.
 - Add Animation for smooth experience.
 - Add Hover Effects on buttons and links in the website.
+- Change text color inside the button.
