@@ -4,11 +4,14 @@ body {
 }
 
 h1 {
+
     
     transition-property: Lucida Bright;
     font-size: 60px;
     color: #da47cc;
+    text-shadow: 2px 2px rgb(151, 201, 216);
 }
+
 .btn {
     color: #cc68b0;
     border: 1px solid gray;
@@ -16,40 +19,40 @@ h1 {
     padding: 10px 10px;
     border-radius: 4px;
     background-color: rgb(9 33 55);
-}    
-.btn:hover{
-    color: black;
-    background-image: linear-gradient( #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 h2 {
-    background-color: #004992;
+    background-color: cyan;
     text-align: center;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: cyan;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0 -8px;
 }
 
 p {
     text-align: center;
     font-size: 50px;
     color: white;
-}
-.btn-style {
-    width: 30%;
-    border-radius: 40px;
+/*     text-shadow: 1px 1px 2px #9c4768, 0 0 25px #84b5d4, 0 0 5px #f78ee0; */
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
 }
 
 .image {
     width: 100%
 }
-
-
 
 a {
     color: #db70c5;
@@ -58,7 +61,7 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .list-style{
@@ -83,30 +86,26 @@ a:hover {
     text-decoration: none;
 }
 .list-style li ul a:hover{
-    color: rgb(220, 147, 223);
+    color: cyan);
 }
 
-
-.text-center {
-	text-align: center;
-	list-style-position: inside;
+.btn {
+  background-color: rgba(52, 17, 54, 0.63);
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  font-weight: bold;
+  box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
 }
 
-ol.text-center li {
-     color: white;
-	 text-align: left;
-	 margin-left: 30%;
-}
-
-#button{
-    padding: 6px 20px;
-    background-color: #0069ff;
-    color: white;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 19px;
-    cursor: pointer;
-    text-decoration: none;
+.btn:hover {
+  background-color: cyan;
+  color: white;
+  text-decoration: none;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
