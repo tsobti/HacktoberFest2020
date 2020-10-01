@@ -15,6 +15,10 @@ h1 {
   text-shadow: 2px 2px rgb(151, 201, 216);
 }
 
+h2 {
+    background-color: cyan;
+    text-align: center;
+}
 
 .sticky {
   position: -webkit-sticky;
