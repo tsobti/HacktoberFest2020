@@ -8,15 +8,15 @@ body {
 }
 
 h1 {
-  /* property: Lucida Bright; */
+  property: Lucida Bright; 
   text-align: center;
   font-size: 60px;
   color: #da47cc;
+  text-shadow: 2px 2px rgb(151, 201, 216);
 }
 
-h2 {
-  background-color: #004992;
-  text-align: center;
+
+
 }
 
 div.sticky {
@@ -26,24 +26,25 @@ div.sticky {
   background-color: cyan;
   padding: 10px;
   font-size: 20px;
+  margin: 0 -8px;
 }
 
 p {
-  text-align: center;
-  font-size: 60px;
-  color: white;
-  text-shadow: 1px 1px 2px #9c4768, 0 0 25px #84b5d4, 0 0 5px #f78ee0;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+/*     text-shadow: 1px 1px 2px #9c4768, 0 0 25px #84b5d4, 0 0 5px #f78ee0; */
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
 }
 
 .image {
-  width: 60%;
+    width: 100%
 }
 
 a {
@@ -62,12 +63,10 @@ a:hover {
   display: flex;
   justify-content: center;
   color: white;
-  margin: 1em;
   letter-spacing: 0.5px;
 }
 .list-style li {
-  width: 40%;
-  /* font-size: large; */
+  font-size: large;
   background-color: rgba(55, 17, 59, 0.63);
   box-shadow: 0px 0px 12px -1px rgb(214, 158, 222);
 }
@@ -80,6 +79,7 @@ a:hover {
 .list-style li ul a {
   color: rgb(248, 201, 255);
   text-decoration: none;
+
 }
 /* .list-style li ul a:hover {
   color: whitesmoke;
