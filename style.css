@@ -43,6 +43,17 @@ a:hover {
     text-decoration: none;
 }
 
+.text-center {
+	text-align: center;
+	list-style-position: inside;
+}
+
+ol.text-center li {
+     color: white;
+	 text-align: left;
+	 margin-left: 30%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     p {
         font-size: 20px
