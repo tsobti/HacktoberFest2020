@@ -7,6 +7,9 @@
       content="width=device-width,initial-scale=1,user-scalable=yes"
     />
     <style>
+      body {
+        overflow-x: hidden;
+      }
       h1 {
         property: Lucida Bright;
         text-align: center;
@@ -24,15 +27,40 @@
         margin-right: auto;
         width: 50%;
       }
+      .image {
+        width: 60%
+      }
+
+      @media (min-width: 320px) and (max-width: 480px) {
+        p {
+          font-size: 20px
+        }  
+        h1 {
+          font-size: 20px
+        }
+        h2 {
+          width: 100%;
+          font-size: 20px;
+        }
+        .main {
+          max-width: 90%;
+          overflow: hidden;
+          margin: 0 auto
+        }
+        .image {
+          width: 100%;
+          padding: 10px
+        }
+      }
     </style>
   </head>
   <body bgcolor="#003367">
-    <div>
+    <div class="main">
+      <div>
       <img
         src="hackfest20.svg"
         alt="logo"
         class="center"
-        style="width: 700px; height: 250px"
       />
     </div>
     <div>
@@ -94,8 +122,7 @@
       <img
         src="tshirt.png"
         alt="Hacktoberfest T-shirt"
-        width="300px"
-        height="500"
+        class="image"
         style="display: block; margin-left: auto; margin-right: auto"
       />
     </div>
@@ -113,6 +140,7 @@
         style="color: #db70c5"
         >Link to code.</a
       >
+    </div>
     </div>
   </body>
 </html>
