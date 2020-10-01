@@ -6,6 +6,9 @@
       name="viewport"
       content="width=device-width,initial-scale=1,user-scalable=yes"
     />
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
     <style>
       body {
         overflow-x: hidden;
@@ -126,6 +129,30 @@
           }, 1000);
         </script>
       </p>
+    <center><div
+      id="div1"
+      class="fa"
+      style="font-size:48px;color:white">
+    </center>
+    </div>
+        <script>
+          function hourglass()
+          {
+            var a;
+            a = document.getElementById("div1");
+            a.innerHTML = "&#xf251;";
+            setTimeout(function () 
+            {
+              a.innerHTML = "&#xf252;";
+            }, 1000);
+              setTimeout(function () 
+            {
+              a.innerHTML = "&#xf253;";
+            }, 2000);
+          }
+          hourglass();
+          setInterval(hourglass, 3000);
+        </script>
       <h2 style="background-color: aliceblue; text-align: center">
         Win a limited edition free t-shirt!
       </h2>
