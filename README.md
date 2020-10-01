@@ -8,6 +8,8 @@ Pull request and add any feature to the website.
 
 Link to the site: https://rakshit234.github.io/HacktoberFest2020/
 
+Link to register on hactoberfest [Hactoberfest2020](https://hacktoberfest.digitalocean.com/)
+
 Add Your Contribution's to this repository by doing following operations:
 - I have added the image of t-shirt in the repo, you can add it anywhere it looks good.
 - Also you can use media query to make this webpage mobile browser compatible and tablet compatible.
