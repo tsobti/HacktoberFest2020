@@ -6,11 +6,11 @@
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
 Pull request and add any feature to the website.:octocat:
 
+<p>
+<a href="https://rakshit234.github.io/HacktoberFest2020/" target="_blank">Click here to visit the website.</a>
 
-<a href="https://rakshit234.github.io/HacktoberFest2020/" target="_blank">Click here to visit the website </a>
-
-
-<a href="https://hacktoberfest.digitalocean.com/" target="_blank">Click here to register for hacktoberfest2020</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank">Click here to register for hacktoberfest2020.</a>
+</p>
 
 Add Your Contribution's to this repository by doing following operations:
 - I have added the image of t-shirt in the repo, you can add it anywhere it looks good.
