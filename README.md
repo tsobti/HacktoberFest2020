@@ -19,7 +19,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Add Hover Effects on buttons and links in the website.
 - Change text color inside the button.
 
-Special thanks to contributors:
+Special thanks to:
 
 * [bluecypher](https://github.com/bluecypher)
 * [Skiller847](https://github.com/Skiller847)
