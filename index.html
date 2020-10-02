@@ -34,54 +34,7 @@
       <p id="t1">Hacktoberfest'20 ends in..</p>
       <p id="demo"></p>
       <p id="p1">
-        <script>
-          // Set the date we're counting down to
-          var countDownDate = new Date("Oct 31, 2020 23:59:59").getTime();
-
-          // Update the count down every 1 second
-          var x = setInterval(function () {
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor(
-              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-            );
-            var minutes = Math.floor(
-              (distance % (1000 * 60 * 60)) / (1000 * 60)
-            );
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Output the result in an element with id="demo"
-            document.getElementById("demo").innerHTML =
-              "<b>" +
-              days +
-              "</b>" +
-              "d " +
-              "<b>" +
-              hours +
-              "</b>" +
-              "h " +
-              "<b>" +
-              minutes +
-              "</b>" +
-              "m " +
-              "<b>" +
-              seconds +
-              "</b>" +
-              "s ";
-
-            // If the count down is over, write some text
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        </script>
+        <script src="countdown.js"></script>        
       </p>
     <center><div
       id="div1"
@@ -89,26 +42,7 @@
       style="font-size:87px;color:white";text-shadow: 1px 1px 2px #9c4768, 0 0 25px #84b5d4, 0 0 5px #f78ee0;>
     </center>
     </div>
-        <script>
-          function hourglass()	
-          {	
-            var a;	
-            a = document.getElementById("div1");	
-            a.innerHTML = "&#xf251;";	
-            setTimeout(function ()	
-            {	
-              a.innerHTML = "&#xf252;";	
-            }, 1000);	
-              setTimeout(function ()	
-            {	
-              a.innerHTML = "&#xf253;";	
-            }, 2000);	
-          }	
-          hourglass();	
-          setInterval(hourglass, 3000);
-        </script>
-      <br>
-      <br>
+    <script src="hourglass.js"></script>
       <br>
       <br>
       <br>
