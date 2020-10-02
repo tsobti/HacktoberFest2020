@@ -18,6 +18,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Add Animation for smooth experience.
 - Add Hover Effects on buttons and links in the website.
 - Change text color inside the button.
+- Can add links to hacktoberfest social media accounts like instagram, twitter, etc.
 
 Special thanks:+1: to:
 
