@@ -5,9 +5,8 @@
 </p>
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
 Pull request and add any feature to the website.:octocat:
-<br>
+
 <a href="https://rakshit234.github.io/HacktoberFest2020/" target="_blank">Click here to visit site </a>
-<br>
 <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Link to register on hacktoberfest2020</a>
 
 Add Your Contribution's to this repository by doing following operations:
