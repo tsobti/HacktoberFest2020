@@ -146,6 +146,13 @@ a {
   background-color: cyan;
   color: #db70c5;
 }
+ /* Social Button */
+ .social-btn.github:after {
+  font-size: 20px;
+}
+.social-btn.twitter:after {
+  font-size: 20px;
+}
 
 #foot {
   margin-top: 80px;
