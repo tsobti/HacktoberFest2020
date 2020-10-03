@@ -32,3 +32,8 @@ Special thanks:+1: to:
 * [mdzaidalam52](https://github.com/mdzaidalam52)
 * [mukesh2309](https://github.com/mukesh2309)
 * [hudiansyahrobby](https://github.com/hudiansyahrobby)
+
+<br />
+<a href="https://ctt.ac/Vu1a7"><img src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg" width="50px" height="50px" style="padding:30px"/></a> <br/>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.digitalocean.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width="50px" height="50px" style="padding:30px"/></a> <br/>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://hacktoberfest.digitalocean.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width="50px" height="50px"/></a> <br/>
