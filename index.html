@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Hacktoberfest-2020</title>
     <link rel="icon" href="images/HF20_logo.png" type="image/x-icon" />
@@ -32,22 +32,25 @@
         src="images/hackfest20.svg"
         alt="logo"
         class="center"
+        data-aos="fade-in"
       />
       </a>
     </div>
     <div class="section-container">
       <div>
-        <p id="t1">Hacktoberfest'20 ends in..</p>
+        <p id="t1" data-aos="fade-down">Hacktoberfest'20 ends in..</p>
         <p id="demo"></p>
         <p id="p1">
           <script src="countdown.js"></script>        
         </p>
-      <center><div
+      <center>
+        <div
         id="div1"
         class="fa"
         style="font-size:87px;color:rgb(124, 0, 173)";text-shadow: 1px 1px 2px #9c4768, 0 0 25px #84b5d4, 0 0 5px #f78ee0;>
-      </center>
       </div>
+    </center>
+
       <script src="hourglass.js"></script>
         <br>
         <br>
@@ -56,7 +59,7 @@
       
       <div class="row">
           <div class="col-3"></div>
-          <div class="col-6 text-center"><h2 style="background:none;"><span style="font-size:40px;color:#58cced;font-family:-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-transform:capitalize;box-shadow:white 0px 0px 10px;padding:8px;border-radius:6px" class='free-shirt'> >> Win a free shirt by contributing as instructed << </span>
+          <div class="col-6 text-center"><h2 style="background:none;" data-aos="zoom-in"><span style="font-size:40px;color:#58cced;font-family:-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-transform:capitalize;box-shadow:white 0px 0px 10px;padding:8px;border-radius:6px" class='free-shirt'> >> Win a free shirt by contributing as instructed << </span>
   <br> 
       <br>
   <span style="font-size:30px;color:#7876da;font-family: 'Fredoka One', cursive;;text-transform:capitalize;"> "Click the t-shirt to get one"
@@ -68,12 +71,12 @@
   </div>
     </div>
    
-        <h1 style="text-align:center;margin-top: 70px;">Steps to be followed</h1><br><br>
+        <h1 data-aos="zoom-in-down" style="text-align:center;margin-top: 70px;">Steps to be followed</h1><br><br>
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <div class="list-style">
-                <li id="list">
+                <li id="list" data-aos="fade-right">
                   <ul> <a href="https://hacktoberfest.digitalocean.com/" target="_blank"> 1. Login on Hacktoberfest website using your Github account </a></ul>
                   <ul> <a href="https://github.com/search?q=hacktoberfest" target="_blank"> 2. Edit any 4 repositories on Github by forking, cloning on your account and make Pull request</a></ul>
                   <ul> <a href="https://hacktoberfest.digitalocean.com/profile" target="_blank"> 3. Check status of your pull request on Hactoberfest official portal</a></ul>
@@ -87,6 +90,7 @@
         src="images/tshirt.png"
         alt="Hacktoberfest T-shirt"
         class="image"
+        data-aos='fade-left'
      />
      </a>  
             </div>
@@ -101,11 +105,11 @@
 
 
 <!-- <button class="btn" > -->
-<a href="https://github.com/rakshit234/HacktoberFest2020" target="_blank" class="btn">Link to code</a>
+<a href="https://github.com/rakshit234/HacktoberFest2020" target="_blank" class="btn" data-aos='fade-up'>Link to code</a>
 <!-- </button> -->
 <br><br>
       
-    <div style="text-align: center">
+    <div style="text-align: center" data-aos='fade-up'>
       <button class="sbtn social-btn github" >
         <a href="https://github.com/rakshit234/HacktoberFest2020/graphs/contributors" target="_blank" style="font-size: 20px; text-align: center; justify-content: center; text-decoration: none; color:white; align-items: center; align-content: center;">Link to Contributor's Profile</a>
       </button>
@@ -125,15 +129,21 @@
     <!-- </div> -->
     <footer id="foot">
 
-        <div class="fty">
+        <div class="fty" data-aos='fade-up'>
         <h4 style="text-align:center; color:white;">Visitor's count</h4>
-        <!-- Badge Code - Do Not Change The Code --><div class="col-xs-12 mt20" id="bg"><div style="margin:0px auto;width:133px;background:rgb(43, 76, 124);text-align:left;display:flex;border-radius:5px"><span style="padding:7px;display:inline-block;border-right:1px solid #746dba"><a href="http://visitorshitcounter.com" rel="nofollow noopener"  target="_blank" title="https://visitorshitcounter.com/"><img src="https://visitorshitcounter.com/img/s-logo.svg" alt="https://visitorshitcounter.com/" style="width:100%;border:none;float:left"></a></span><span class="text" id="dupli_hit_counter"   style="padding:10px 0 0 0;display:inline-block;color:#ffffff;width:100%;text-align:center;"></span></span><input type="hidden" id="site_val"   value="https://visitorshitcounter.com/counterDisplay?code=c1cf1d3bf248cd36b19d93ec8a2e938a&style=0017&pad=5&type=page&initCount=1"></div></div><script src="https://visitorshitcounter.com/js/badgess.js?v=1601553115"></script><!-- Badge Code End Here -->
+        <!-- Badge Code - Do Not Change The Code -->
+        <div class="col-xs-12 mt20" id="bg"><div style="margin:0px auto;width:133px;background:rgb(43, 76, 124);text-align:left;display:flex;border-radius:5px"><span style="padding:7px;display:inline-block;border-right:1px solid #746dba"><a href="http://visitorshitcounter.com" rel="nofollow noopener"  target="_blank" title="https://visitorshitcounter.com/"><img src="https://visitorshitcounter.com/img/s-logo.svg" alt="https://visitorshitcounter.com/" style="width:100%;border:none;float:left"></a></span><span class="text" id="dupli_hit_counter"   style="padding:10px 0 0 0;display:inline-block;color:#ffffff;width:100%;text-align:center;"></span></span><input type="hidden" id="site_val"   value="https://visitorshitcounter.com/counterDisplay?code=c1cf1d3bf248cd36b19d93ec8a2e938a&style=0017&pad=5&type=page&initCount=1"></div></div><script src="https://visitorshitcounter.com/js/badgess.js?v=1601553115"></script><!-- Badge Code End Here -->
       </div>
       
     </footer>
   </div>
-      <footer>
+      <footer data-aos='fade-up'>
         <h4 style="text-align:center; color:white;"> © 2020 DigitalOcean, LLC. All rights reserved.</h4>
-      </footer></body>
+      </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
 </html>
 
