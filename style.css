@@ -5,25 +5,28 @@
 
 body {
   overflow-x: hidden;
-  background-color: #1a4366;
+  background-color: #161a1d;
 }
+
 #demo{
-  font-family: 'Pirata One', cursive;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 60px;
-  color: rgb(157, 243, 221);
+  color: #8ecae6;
   text-shadow: 2px 2px rgb(172, 36, 190);
 }
+
 #t1{ 
-  font-family: 'Pirata One', cursive;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 70px;
-  color: rgb(99, 53, 235);
+  color: #ffa69e;
   text-shadow: 2px 2px rgb(172, 36, 190);
 
 }
+
 h1 {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Bungee Inline', cursive;
   text-align: center;
   font-size: 80px;
   color: rgb(38, 206, 206);
@@ -35,15 +38,7 @@ h2 {
   text-align: center;
 }
 
-/* div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: cyan;
-  padding: 10px;
-  font-size: 20px;
-  margin: 0 -8px;
-} */
+
 
 p {
   text-align: center;
