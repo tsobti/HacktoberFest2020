@@ -226,6 +226,9 @@ a {
   .free-shirt {
     font-size: 0.9rem !important;
   }
+  .section-container #t1,#demo{
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
