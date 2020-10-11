@@ -8,25 +8,24 @@ body {
   background-color: #1a4366;
 }
 
-#demo{
-  font-family: 'Kaushan Script', cursive;
+#demo {
+  font-family: "Kaushan Script", cursive;
   text-align: center;
   font-size: 60px;
   color: #8ecae6;
   text-shadow: 2px 2px rgb(172, 36, 190);
 }
 
-#t1{ 
-  font-family: 'Kaushan Script', cursive;
+#t1 {
+  font-family: "Kaushan Script", cursive;
   text-align: center;
   font-size: 70px;
   color: #ffa69e;
   text-shadow: 2px 2px rgb(172, 36, 190);
-
 }
 
 h1 {
-  font-family: 'Bungee Inline', cursive;
+  font-family: "Bungee Inline", cursive;
   text-align: center;
   font-size: 80px;
   color: rgb(38, 206, 206);
@@ -37,8 +36,6 @@ h2 {
   background-color: cyan;
   text-align: center;
 }
-
-
 
 p {
   text-align: center;
@@ -54,7 +51,7 @@ p {
 
 .image {
   width: 85%;
-  transition: .2s;
+  transition: 0.2s;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -96,7 +93,7 @@ a:hover {
   padding: 0.5em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.644);
   text-align: justify;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .list-style li ul:hover {
@@ -112,7 +109,7 @@ a:hover {
   color: whitesmoke;
 }
 
-.section-container{
+.section-container {
   background: #0a2a4677;
   padding: 3.5em 0;
 }
@@ -141,8 +138,8 @@ a {
   background-color: cyan;
   color: #db70c5;
 }
- /* Social Button */
- .social-btn.github:after {
+/* Social Button */
+.social-btn.github:after {
   font-size: 20px;
 }
 .social-btn.twitter:after {
@@ -201,6 +198,14 @@ a {
   padding: 3px;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+a#updated-rules {
+  color: rgb(38, 206, 206);
+}
+
+a#updated-rules:hover {
+  color: rgb(248, 201, 255);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
