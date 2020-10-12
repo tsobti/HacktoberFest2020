@@ -2,18 +2,46 @@
   font-family: "Poppins";
   src: url(fonts/Poppins-Regular.otf) format("opentype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&family=Fredoka+One&display=swap');
 
 body {
   overflow-x: hidden;
   background-color: #1a4366;
 }
 
-#demo{
-  font-family: 'Kaushan Script', cursive;
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#demo1,#demo2,#demo3,#demo4{
+  font-family: 'Cousine', monospace;
+  width:150px ;
   text-align: center;
-  font-size: 60px;
-  color: #8ecae6;
+  font-size:100px;
+  color: #6bcbf8;
+  background-color: #194f7e;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
   text-shadow: 2px 2px rgb(172, 36, 190);
+}
+#caption{
+  font-size: 30px;
+  font-family: 'Cousine', monospace;
+  color: #e295d3;
+
+  margin: 10px 40px;
+
+}
+.center-timer{
+  
+  display: block;
+  margin: 5rem auto;
+  
+  justify-content: center;
+  text-align: center;
 }
 
 #t1{ 
@@ -124,6 +152,7 @@ a {
 .btn {
   background-color: rgba(52, 17, 54, 0.63);
   border: none;
+  border-radius: 30px;
   font-family: "Poppins";
   padding: 16px 32px;
   text-align: center;
@@ -225,6 +254,9 @@ a {
   }
   .free-shirt {
     font-size: 0.9rem !important;
+  }
+  .section-container #t1,#demo{
+    font-size: 30px;
   }
 }
 
