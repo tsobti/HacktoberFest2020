@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: #1a4366;
+  background-color: #183d5d;
 }
 
 
@@ -140,7 +140,12 @@ a:hover {
 }
 
 .section-container {
-  background: #0a2a4677;
+  background: #072540;
+  padding: 3.5em 0;
+}
+
+.section-container-shirt {
+  background: #183d5d;
   padding: 3.5em 0;
 }
 
