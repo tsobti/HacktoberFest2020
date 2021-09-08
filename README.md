@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
-    	<img src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg" >
+    	<img src="https://hacktoberfest.digitalocean.com/" >
     </a>
 </p>
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
@@ -36,6 +36,3 @@ Special thanks:+1: to:
 * [Nandini-13](https://github.com/Nandini-13)
 
 <br />
-<a href="https://ctt.ac/Vu1a7"><img src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg" width="50px" height="50px" style="padding:30px"/></a> 
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.digitalocean.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width="50px" height="50px" style="padding:30px"/></a> 
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://hacktoberfest.digitalocean.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width="50px" height="50px"/></a> 
