@@ -25,7 +25,7 @@ Add Your Contribution's to this repository by doing following operations:
 Special thanks:+1: to:
 
 * [bluecypher](https://github.com/bluecypher)
-* [SwetSoni](https://github.com/SwetSoni)
+* [Skiller847](https://github.com/Skiller847)
 * [vd152](https://github.com/vd152)
 * [preity-p](https://github.com/preity-p)
 * [Manitej66](https://github.com/Manitej66)

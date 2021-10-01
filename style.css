@@ -4,38 +4,57 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Cousine:wght@700&family=Fredoka+One&display=swap");
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   overflow-x: hidden;
   background-color: #072540;
   top: 0;
 }
 
+
 .counter {
-  display: flex;
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.expired{
+  text-align: center;
+  font-family: "Cousine", monospace;
+  color: #e295d3;
+  font-size: 40px;
+}
+
+.timer{
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 150px;
+  margin: 0 16px;
 }
+
 #demo1,
 #demo2,
 #demo3,
 #demo4 {
+  flex: 1;
   font-family: "Cousine", monospace;
-  width: 150px;
-
+  width: 140px;
   text-align: center;
-  font-size: 100px;
+  font-size: 70px;
   color: #6bcbf8;
   background-color: #194f7e;
-  margin: 8px;
-  padding: 8px;
   border-radius: 20px;
   text-shadow: 2px 2px rgb(172, 36, 190);
+  box-shadow: 1px 1px 1px 1px rgb(172, 36, 190);
 }
-#caption {
+.caption {
   font-size: 30px;
   font-family: "Cousine", monospace;
   color: #e295d3;
-
   margin: 10px 40px;
 }
 .center-timer {
@@ -152,12 +171,10 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 .btn {
-  background-color: rgb(255, 51, 92);
-  
+  background-color: rgba(52, 17, 54, 0.63);
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
@@ -167,43 +184,22 @@ a {
   /* margin: 400px 0px; */
   transition: 0.3s;
   font-weight: bold;
-  /* box-shadow: 0px 0px 12px -1px rgb(210, 158, 219); */
-  transition: 0.5s;
+  box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
+  transition: all 0.5s;
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
 
 .btn:hover {
-  color: rgb(255, 255, 255);
-        border-radius: 10px;
-        background: rgb(255, 0, 51);
-        box-shadow: 0 0 10px rgb(255, 0, 51),0 0 40px rgb(255, 0, 51), 0 0 80px rgb(255, 0, 51) ;
+  background-color: cyan;
+  color: #db70c5;
 }
 /* Social Button */
-.social-btn {
-  background-color: rgb(255, 51, 92);
-  
-  border: none;
-  border-radius: 30px;
-  font-family: "Poppins";
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  /* margin: 400px 0px; */
-  transition: 0.3s;
-  font-weight: bold;
-  /* box-shadow: 0px 0px 12px -1px rgb(210, 158, 219); */
-  transition: 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
+.social-btn.github:after {
+  font-size: 20px;
 }
-  
-.social-btn:hover {
-  color: rgb(255, 255, 255);
-        border-radius: 10px;
-        background: rgb(255, 0, 51);
-        box-shadow: 0 0 10px rgb(255, 0, 51),0 0 40px rgb(255, 0, 51), 0 0 80px rgb(255, 0, 51)
-  
+.social-btn.twitter:after {
+  font-size: 20px;
 }
 
 #foot {
@@ -354,96 +350,60 @@ a#updated-rules:hover {
 .social-btn {
   border-radius: 10px;
 }
-#social{
-  justify-content: space-evenly;
+
+/* countdown timer */
+@media (max-width : 520px){
+  #t1{
+    font-size: 32px;
+  }
+  .counter{
+    margin: 20px 0px;
+  }
+  .timer{
+    width: 40px;
+    margin: 0 16px;
+  }
+
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  width: 30px;
+  font-size: 16px;
+  border-radius: 6px;
 }
 
-
-.btn1{
-  position: relative;
-  display: inline-block;
-  padding: 120px 30px 120px 90px;
-  color: #2196f3;
-  background-color: #183d5d;
-  overflow: hidden;
-  transition: 0.2s;
-  height: 600px;
-  width:550px ;
-  margin: 10px 50px;
+.caption {
+  font-size: 16px;
+  margin:0;
 }
-.btn1:hover{
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-  transition-delay: 1s;
-} 
-.btn1 span{
-  position: absolute;
-  display: block;
-}
-.btn1 span:nth-child(1){
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg,transparent,#2196f3);
-
-}
-.btn1:hover span:nth-child(1){
-  left: 100%;
-  transition: 1s;
-
 }
 
+@media (min-width : 520px) and (max-width : 830px){
 
+  #t1{
+    font-size: 40px;
+  }
 
+    .counter{
+    margin: 20px 20px;
+  }
+  .timer{
+    width: 80px;
+    margin: 0 16px;
+  }
 
-.btn1 span:nth-child(2){
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg,transparent,#2196f3);
-
-}
-.btn1:hover span:nth-child(2){
-  top: 100%;
-  transition: 1s;
-  transition-delay: 0.25s;
-}
-
-
-
-
-
-.btn1 span:nth-child(3){
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg,transparent,#2196f3);
-
-}
-.btn1:hover span:nth-child(3){
-  right: 100%;
-  transition: 1s;
-  transition-delay: 0.5s;
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  width: 60px;
+  font-size: 32px;
+  border-radius: 12px;
 }
 
-
-
-
-
-.btn1 span:nth-child(4){
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg,transparent,#2196f3);
-
+.caption {
+  font-size: 24px;
+  margin:0;
 }
-.btn1:hover span:nth-child(4){
-  bottom: 100%;
-  transition: 1s;
-  transition-delay: 0.75s;
 }
