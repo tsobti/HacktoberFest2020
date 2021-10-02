@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
-    	<img src="https://github.com/SwetSoni/HacktoberFest2020/tree/master/images/H-icon-dark.2021.png" >
+    	<img src="https://github.com/rakshit234/HacktoberFest2020/blob/master/images/H-icon-dark.2021.png" >
     </a>
 </p>
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
@@ -27,7 +27,7 @@ Add Your Contribution's to this repository by doing following operations:
 <strong> ⭐️ Contributors in 2020 </strong>
 
 * [bluecypher](https://github.com/bluecypher)
-* [Swet Soni](https://github.com/SwetSoni)
+* [SwetSoni](https://github.com/SwetSoni)
 * [vd152](https://github.com/vd152)
 * [preity-p](https://github.com/preity-p)
 * [Manitej66](https://github.com/Manitej66)
