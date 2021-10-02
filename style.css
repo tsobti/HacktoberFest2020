@@ -26,6 +26,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(247, 40, 0);
     background-clip: padding-box;
+
 }
 
 *,
@@ -290,6 +291,7 @@ p {
 #video_box {
     background: linear-gradient(to bottom, #f4f0e1 2%, #efdecd, #efdecd, #efdecd);
     padding-top: 4em;
+
 }
 
 #video_box .container {
