@@ -36,6 +36,7 @@ Special thanks:+1: to:
 * [Nandini-13](https://github.com/Nandini-13)
 
 **Major Contributors in 2021**
+    
 *[Nurul Ramadhona](https://github.com/nurulramadhona)
 
 <br />
