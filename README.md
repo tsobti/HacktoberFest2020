@@ -7,7 +7,7 @@
 Pull request and add any feature to the website.:octocat:
     
 * [Click here to visit the website.](https://rakshit234.github.io/HacktoberFest2021/)
-* [Click here to register for hacktoberfest2020.](https://hacktoberfest.digitalocean.com/)
+* [Click here to register for hacktoberfest2021.](https://hacktoberfest.digitalocean.com/)
 
 Add Your Contribution's to this repository by doing following operations:
 - You can make this webpage mobile browser compatible and tablet compatible.
@@ -19,6 +19,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Can add links to hacktoberfest social media accounts like instagram, twitter, etc.
 - Can also link to digital ocean official website.
 - Can improve the text "Steps to be followed".
+- Fix the visitor counter.
 - Update/improve the README.
 
 Special thanks:+1: to:
