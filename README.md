@@ -22,7 +22,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Fix the visitor counter.
 - Update/improve the README.
 
-Special thanks:+1: to:
+    <h3>Special thanks:+1: to:</h3>
 
 <strong> ⭐️ Contributors in 2020 </strong>
 
