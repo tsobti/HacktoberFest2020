@@ -24,6 +24,8 @@ Add Your Contribution's to this repository by doing following operations:
 
 Special thanks:+1: to:
 
+** ⭐️ Contributors in 2020 **
+
 * [bluecypher](https://github.com/bluecypher)
 * [SwetSoni](https://github.com/SwetSoni)
 * [vd152](https://github.com/vd152)
@@ -35,7 +37,7 @@ Special thanks:+1: to:
 * [hudiansyahrobby](https://github.com/hudiansyahrobby)
 * [Nandini-13](https://github.com/Nandini-13)
 
-**Major Contributors in 2021**
+** ⭐️ Contributors in 2021 **
     
 *[Nurul Ramadhona](https://github.com/nurulramadhona)
 
