@@ -18,7 +18,8 @@ Add Your Contribution's to this repository by doing following operations:
 - Change text color inside the button.
 - Can add links to hacktoberfest social media accounts like instagram, twitter, etc.
 - Can also link to digital ocean official website.
-- Can improve the text "Steps to be followed".    
+- Can improve the text "Steps to be followed".
+- Update/improve the README.
 
 Special thanks:+1: to:
 
@@ -40,3 +41,5 @@ Special thanks:+1: to:
 *[Nurul Ramadhona](https://github.com/nurulramadhona)
 
 <br />
+
+NOTE: Only valid PRs will be merged.
