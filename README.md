@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
-    	<img src="https://github.com/SwetSoni/HacktoberFest2020/tree/master/images/2021_Logo.jpg" >
+    	<img src="https://github.com/SwetSoni/HacktoberFest2020/tree/master/images/hackfest21.svg" >
     </a>
 </p>
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
