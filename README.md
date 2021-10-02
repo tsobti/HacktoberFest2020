@@ -27,7 +27,7 @@ Add Your Contribution's to this repository by doing following operations:
 <strong> ⭐️ Contributors in 2020 </strong>
 
 * [bluecypher](https://github.com/bluecypher)
-* [SwetSoni](https://github.com/SwetSoni)
+* [Swet Soni](https://github.com/SwetSoni)
 * [vd152](https://github.com/vd152)
 * [preity-p](https://github.com/preity-p)
 * [Manitej66](https://github.com/Manitej66)
