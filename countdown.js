@@ -20,19 +20,17 @@
    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
    // Output the result in an element with id="demo"
-   document.getElementById("demo1").innerHTML =
-    days;
-    document.getElementById("demo2").innerHTML =
-    hours;
-    document.getElementById("demo3").innerHTML =
-    minutes;
-    document.getElementById("demo4").innerHTML =
-    seconds;
+   document.getElementById("demo1").innerText = `${days}`;
+   
+   document.getElementById("demo2").innerText = `${hours}`;
+    
+   document.getElementById("demo3").innerText = `${minutes}`;
+    
+   document.getElementById("demo4").innerText = `${seconds}`;
 
-
-   // If the count down is over, write some text
+  //  If the count down is over, write some text
    if (distance < 0) {
      clearInterval(x);
-     document.getElementById("demo").innerHTML = "EXPIRED";
+     document.querySelector(".counter").innerHTML = `<div class="expired">Ended... </div>`;
    }
  }, 1000);

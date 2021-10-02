@@ -11,31 +11,39 @@ body {
 }
 
 .counter {
-  display: flex;
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.expired{
+  text-align: center;
+  font-family: "Cousine", monospace;
+  color: #ab8a74;
+  font-size: 40px;
+}
+
+.timer{
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 150px;
+  margin: 0 16px;
 }
+
 #demo1,
 #demo2,
 #demo3,
 #demo4 {
+  flex: 1;
   font-family: "Cousine", monospace;
-  width: 150px;
-
+  width: 140px;
   text-align: center;
-  font-size: 100px;
-  color: #f74700;
-  background-color: #f4f0e1;
-  margin: 8px;
-  padding: 8px;
-  border-radius: 20px;
-  text-shadow: 2px 2px rgb(181, 58, 37);
 }
-#caption {
+.caption {
   font-size: 30px;
   font-family: "Cousine", monospace;
   color: #ab8a74;
-
   margin: 10px 40px;
 }
 .center-timer {
@@ -447,4 +455,67 @@ a#updated-rules:hover {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+
+/* countdown timer */
+@media (max-width : 520px){
+  #t1{
+    font-size: 32px;
+  }
+  .counter{
+    margin: 20px 0px;
+  }
+  .timer{
+    width: 40px;
+    margin: 0 16px;
+  }
+
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  width: 30px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.caption {
+  font-size: 16px;
+  margin:0;
+}
+.expired{
+  font-size: 16px;
+}
+}
+
+@media (min-width : 520px) and (max-width : 830px){
+
+  #t1{
+    font-size: 40px;
+  }
+
+    .counter{
+    margin: 20px 20px;
+  }
+  .timer{
+    width: 80px;
+    margin: 0 16px;
+  }
+
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  width: 60px;
+  font-size: 32px;
+  border-radius: 12px;
+}
+
+.caption {
+  font-size: 24px;
+  margin:0;
+}
+.expired{
+  font-size: 24px;
+}
 }
