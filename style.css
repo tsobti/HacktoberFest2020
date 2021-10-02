@@ -39,6 +39,12 @@ body {
   font-family: "Cousine", monospace;
   width: 140px;
   text-align: center;
+  font-size: 70px;
+  color: #f74700;
+  background-color: #f4f0e1;
+  border-radius: 20px;
+  /* text-shadow: 2px 2px rgb(181 58 37); */
+  box-shadow: 1px 1px 1px 1px rgb(181 58 37);
 }
 .caption {
   font-size: 30px;
