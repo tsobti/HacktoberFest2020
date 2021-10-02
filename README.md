@@ -24,22 +24,22 @@ Add Your Contribution's to this repository by doing following operations:
 
 Special thanks:+1: to:
 
-** ⭐️ Contributors in 2020 **
+<strong> ⭐️ Contributors in 2020 </strong>
 
-* [bluecypher](https://github.com/bluecypher)
-* [SwetSoni](https://github.com/SwetSoni)
-* [vd152](https://github.com/vd152)
-* [preity-p](https://github.com/preity-p)
-* [Manitej66](https://github.com/Manitej66)
-* [RoyalEagle73](https://github.com/RoyalEagle73)
-* [mdzaidalam52](https://github.com/mdzaidalam52)
-* [mukesh2309](https://github.com/mukesh2309)
-* [hudiansyahrobby](https://github.com/hudiansyahrobby)
-* [Nandini-13](https://github.com/Nandini-13)
+    * [bluecypher](https://github.com/bluecypher)
+    * [SwetSoni](https://github.com/SwetSoni)
+    * [vd152](https://github.com/vd152)
+    * [preity-p](https://github.com/preity-p)
+    * [Manitej66](https://github.com/Manitej66)
+    * [RoyalEagle73](https://github.com/RoyalEagle73)
+    * [mdzaidalam52](https://github.com/mdzaidalam52)
+    * [mukesh2309](https://github.com/mukesh2309)
+    * [hudiansyahrobby](https://github.com/hudiansyahrobby)
+    * [Nandini-13](https://github.com/Nandini-13)
 
-** ⭐️ Contributors in 2021 **
+<strong> ⭐️ Contributors in 2021 </strong>
     
-*[Nurul Ramadhona](https://github.com/nurulramadhona)
+    * [Nurul Ramadhona](https://github.com/nurulramadhona)
 
 <br />
 
