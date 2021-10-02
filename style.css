@@ -349,7 +349,7 @@ a#updated-rules:hover {
   width: 15px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(purple, #db70c5);
+  background: linear-gradient(#f74700, #ab8a74);
   border-radius: 16px;
 }
 .social-btn {
